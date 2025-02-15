@@ -114,7 +114,8 @@ main {
     border: 1px solid purple;
     padding: 2px 8px;
     font-weight: 700;
-
+    height: 30px;
+    width: 25%;
 
 }
 
@@ -124,6 +125,8 @@ main {
 
     margin-top: 14px;
     font-size: 25px;
+    scrollbar-color: #1e046db4 transparent;
+    scrollbar-width: thin;
     line-height: 40px;
     text-align: center;
     font-family: abhinav;
@@ -132,7 +135,8 @@ main {
     border-radius: 8px;
     background: #0000001a;
     color: #08063a;
-
+    height: 35vh;
+    overflow-y: scroll;
 
 
 }
@@ -141,7 +145,7 @@ main {
 .name_meaning {
 
     margin-top: 12px;
-
+    height: 30px;
     width: 60%;
 
 }
@@ -161,9 +165,9 @@ main {
 
 
     color: white;
-    background: blue;
+    background: #050540;
     padding: 7px 25px;
-
+border-radius: 8px;
     cursor: pointer;
 
 
@@ -171,15 +175,21 @@ main {
 
 #nextbtn {
 
-
+border-radius: 8px;
     color: white;
-    background: blue;
-    padding: 7px 25px;
+    background: #050540;
+        padding: 7px 25px;
     cursor: pointer;
 
 
 }
 
+
+#prevbtn:hover, #nextbtn:hover {
+
+    background: #0b0b9f;
+
+}
 
 /* ===========   footer code styling ============ */
 
