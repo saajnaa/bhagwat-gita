@@ -1,0 +1,258 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+
+    background: url(/assets/temple.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: -12px 25%;
+    background-size: 55vh;
+    overflow-y: hidden;
+
+}
+
+
+@font-face {
+    font-family: "abhinav";
+    src: url(./assets/fonts/Abhinav.ttf);
+}
+
+
+/*   ============= heading styling ============== */
+
+
+header {
+
+
+    background: #14213d;
+
+
+}
+
+header .container {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+header .container .logo {
+
+    margin-left: 20px;
+
+
+
+}
+
+.logo img {
+
+    width: 15vw;
+
+}
+
+
+/* ===========  main code styling  ============= */
+
+
+main {
+    margin-top: 5px;
+    height: 72.5vh;
+    width: 100vw;
+    background: #e2690c7c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ============ info container styling ================ */
+
+
+
+.info_container {
+
+    height: 95%;
+    width: 95%;
+
+
+}
+
+.info_head {
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+
+
+
+}
+
+
+.chapter_number,
+.name_meaning,
+.name {
+    /* text-shadow: ; */
+    text-shadow: 2px 2px 4px rgb(252, 201, 201);
+    background: #ffba0a69;
+    color: #000;
+    font-family: cursive;
+    border-radius: 8px;
+    border: 1px solid purple;
+    padding: 2px 8px;
+    font-weight: 700;
+
+
+}
+
+
+#paragraph {
+
+
+    margin-top: 14px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    font-family: abhinav;
+    border: 1px solid purple;
+    padding: 4px 9px;
+    border-radius: 8px;
+    background: #0000001a;
+    color: #08063a;
+
+
+
+}
+
+
+.name_meaning {
+
+    margin-top: 12px;
+
+    width: 60%;
+
+}
+
+.button {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+#prevbtn {
+
+
+
+    color: white;
+    background: blue;
+    padding: 7px 25px;
+
+    cursor: pointer;
+
+
+}
+
+#nextbtn {
+
+
+    color: white;
+    background: blue;
+    padding: 7px 25px;
+    cursor: pointer;
+
+
+}
+
+
+/* ===========   footer code styling ============ */
+
+footer {
+
+
+    width: 100%;
+    height: 85px;
+    background: #14213d;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+footer p {
+    margin: 4px 0;
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+
+
+.social-link {
+
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 3px 0 2px 0;
+
+}
+
+
+.social-link i {
+
+    font-size: 18px;
+    color: rgb(205, 210, 210);
+
+
+}
+
+
+.developer {
+
+    margin-top: 2px;
+    font-family: sans-serif;
+
+}
+
+
+.developer a {
+
+    border-bottom: 1.3px solid green;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.developer a:hover {
+
+    color: rgb(0, 255, 0);
+    border-bottom: 1.3px solid rgb(0, 255, 0);
+
+}
+
+.developer a:active {
+
+    color: rgb(255, 0, 0);
+    border-bottom: 1.3px solid rgb(0, 255, 0);
+
+}
