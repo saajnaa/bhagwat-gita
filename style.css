@@ -108,14 +108,14 @@ main {
     /* text-shadow: ; */
     text-shadow: 2px 2px 4px rgb(252, 201, 201);
     background: #ffba0a69;
-    color: #000;
-    font-family: cursive;
+    color: #180a86;
+    font-family: sans-serif;
     border-radius: 8px;
     border: 1px solid purple;
     padding: 2px 8px;
-    font-weight: 700;
-    height: 30px;
-    width: 25%;
+    font-weight: 600;
+
+
 
 }
 
@@ -135,7 +135,7 @@ main {
     border-radius: 8px;
     background: #0000001a;
     color: #08063a;
-    height: 35vh;
+    height: 42vh;
     overflow-y: scroll;
 
 
@@ -145,9 +145,9 @@ main {
 .name_meaning {
 
     margin-top: 12px;
-    height: 30px;
-    width: 60%;
-
+    padding: 4px 3px;
+    margin-bottom: 30px;
+    height: 50px;
 }
 
 .button {
@@ -156,7 +156,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+padding: 0 20px ;
 
 }
 
@@ -166,26 +166,31 @@ main {
 
     color: white;
     background: #050540;
-    padding: 7px 25px;
-border-radius: 8px;
+    padding: 16px 50px;
+    border-radius: 16px;
     cursor: pointer;
-
+    user-select: none;
+    /* This will disable text selection */
 
 }
 
 #nextbtn {
 
-border-radius: 8px;
+    border-radius: 16px;
     color: white;
     background: #050540;
-        padding: 7px 25px;
+    padding: 16px 50px;
     cursor: pointer;
-
+    user-select: none;
+    /* This will disable text selection */
 
 }
 
 
-#prevbtn:hover, #nextbtn:hover {
+
+
+#prevbtn:hover,
+#nextbtn:hover {
 
     background: #0b0b9f;
 
