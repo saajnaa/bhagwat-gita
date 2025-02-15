@@ -9,7 +9,7 @@
 body {
 
 
-    background: url(/assets/temple.png);
+    background: url(./assets/temple.png);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
